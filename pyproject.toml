@@ -1,0 +1,19 @@
+[project]
+name = "Mahiru"
+version = "1.0.0"
+description = "A Python AI Virtual Assistant that listens and responds using voice."
+readme = "README.md"
+requires-python = ">=3.10"
+
+author = [
+    {name = "Yash Kumar"}
+]
+
+dependencies = [
+    "pyttsx3",
+    "SpeechRecognition",
+    "pandas",
+    "nltk",
+    "Wikipedia-API",
+    "PyAudio"
+]
